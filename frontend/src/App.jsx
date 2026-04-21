@@ -15,9 +15,6 @@ function App() {
   return (
      <Routes>
       <Route index element={<Home />}/>
-      <Route path="isabel" element={<Isabel />} />
-      <Route path="nikola" element={<Nikola />} /> 
-      <Route path="amanda" element={<Amanda />} />
     </Routes>
   )
 }

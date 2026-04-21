@@ -9,7 +9,7 @@ export default function Amanda() {
         <h2>Amanda Torstensen</h2> 
         <a href="mailto:amanda.torstensen@gmail.com">Send meg en mail</a>
         <h3>Studie: Digitale medier og Design</h3>
-        <h4>Andreårs student</h4> 
+        <h4>Andreårs student yy</h4> 
         </article>
         </>
     )}

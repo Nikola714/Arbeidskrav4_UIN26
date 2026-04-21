@@ -8,7 +8,7 @@ export default function Amanda() {
         <img src="/bilder/amanda.jpg" alt="bilde av Amanda Torstensen"/>
         <h2>Amanda Torstensen</h2> 
         <a href="mailto:amanda.torstensen@gmail.com">Send meg en mail</a>
-        <h3>Studie: Digitale medier og Design</h3>
+        <h3>Digitale medier og Design</h3>
         <h4>Andreårs student</h4> 
         </article>
         </>

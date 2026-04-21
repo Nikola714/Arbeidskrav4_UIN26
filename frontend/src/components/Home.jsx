@@ -7,9 +7,15 @@ export default function Home(){
 
     return(
         <main>
-            <Amanda/>
-            <Nikola/>
-            <Isabel/>
+            <header id="overskrift">
+                <h1>Gruppe 30</h1>
+            </header>
+            
+            <section>
+                <Amanda/>
+                <Nikola/>
+                <Isabel/>    
+            </section>
         </main>
     )
 }

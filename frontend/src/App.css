@@ -1,4 +1,7 @@
-html, body{
-    display: flex;
+body{
+      max-width: 1400px;
+}
 
+main{
+    display: flex;
 }

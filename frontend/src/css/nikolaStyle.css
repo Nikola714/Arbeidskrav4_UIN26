@@ -1,7 +1,7 @@
 .nikolaKort{
     background-color: rgb(96, 96, 218);
-    max-width: 400px;
+    width: 30%;
 }
 #nikolaBilde{
-    max-width: 400px;
+    width: 90%;
 }

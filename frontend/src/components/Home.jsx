@@ -1,6 +1,7 @@
 import Amanda from "./Amanda";
 import Nikola from "./Nikola";
 import Isabel from "./Isabel"
+import HentArbeidskrav from "./HentArbeidskrav";
 
 
 export default function Home(){
@@ -16,6 +17,8 @@ export default function Home(){
                 <Nikola/>
                 <Isabel/>    
             </section>
+            <HentArbeidskrav />
+            
         </main>
     )
 }

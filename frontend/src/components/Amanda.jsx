@@ -3,7 +3,7 @@ export default function Amanda() {
 
     return (
         <>
-        <img src="../public/bilder/amanda.jpg" alt="bilde av Amanda Torstensen"/>
+        <img src="/bilder/amanda.jpg" alt="bilde av Amanda Torstensen"/>
         <h2>Amanda Torstensen</h2> 
         <a href="mailto:amanda.torstensen@gmail.com">mail</a>
         <h3>Studie: Digitale medier og Design</h3>

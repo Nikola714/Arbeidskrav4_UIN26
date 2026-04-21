@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import client from '../sanity/client'
 
 
-export default function Hentarbeidskrav() {
+export default function HentArbeidskrav() {
 
     const [sanityKrav, setSanityKrav] = useState([])
 

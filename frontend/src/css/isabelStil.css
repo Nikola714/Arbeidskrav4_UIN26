@@ -10,10 +10,15 @@
     font: helvetica, sans-serif;
     text-align: center;
     margin: 5,5%;
+    color: black;
+    }
+    a {
+        color: rgb(193, 100, 177)
     }
 
     h2, h5{
         margin: 0;
+        color: black;
     }
     
 

@@ -20,3 +20,5 @@ const arbeidskrav = {
 }
 
 export default arbeidskrav
+
+// Isabel skrev dette, pga repository-trøbbel måtte det limes inn fra det forrige repositoriet vi tidligere laget

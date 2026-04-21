@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(255, 211, 228);
+    color: rgb(247, 242, 233);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: left;
+    margin: 0;
+    width: 30%;
+
+}

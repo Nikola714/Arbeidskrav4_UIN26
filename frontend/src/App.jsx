@@ -6,6 +6,8 @@ import './App.css'
 import { Route, Routes } from 'react-router-dom'
 import Home from './components/Home'
 import Isabel from './components/Isabel'
+import Nikola from './components/Nikola'
+import Amanda from './components/Amanda'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +16,8 @@ function App() {
      <Routes>
       <Route index element={<Home />}/>
       <Route path="isabel" element={<Isabel />} />
+      <Route path="nikola" element={<Nikola />} /> 
+      <Route path="amanda" element={<Amanda />} />
     </Routes>
   )
 }

@@ -1,10 +1,21 @@
 .isabelKort{
-    
+    background-color: rgb(111, 85, 122);
     margin: 0;
     width: 30%;
     padding: 2rem;
     border-radius:5%;
+    
 
+    h1, h2, a{
+    font: helvetica, sans-serif;
+    text-align: center;
+    margin: 5,5%;
+    }
+
+    h2, h5{
+        margin: 0;
+    }
+    
 
     img {
         max-width: 90%;

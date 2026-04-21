@@ -1,8 +1,11 @@
 body{
       max-width: 1400px;
+      position: relative;
 }
 
 main{
     display: flex;
     gap: 1rem;
+    justify-content: center;
+    position: absolute;
 }

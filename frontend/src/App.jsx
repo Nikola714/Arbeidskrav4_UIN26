@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
 import Home from './components/Home'
+import Isabel from './components/Isabel'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ function App() {
   return (
      <Routes>
       <Route index element={<Home />}/>
+      <Route path="isabel" element={<Isabel />} />
     </Routes>
   )
 }

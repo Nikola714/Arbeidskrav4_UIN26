@@ -9,7 +9,7 @@ export default function Isabel(){
     <h1>Isabel Tapper</h1>
     <a href="mailto:istap9887@hiof.no">istap9887@hiof.no</a>
     <h2>Studie: Enkeltemner</h2>
-    <h4>(Starter Informasjonssystemer høsten 2026)</h4>
+    <h5>(Starter Informasjonssystemer høsten 2026)</h5>
     </article>
     </>    
     )

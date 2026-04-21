@@ -1,5 +1,15 @@
+import Amanda from "./Amanda";
+import Nikola from "./Nikola";
+import Isabel from "./Isabel"
+
+
 export default function Home(){
+
     return(
-        <h1>Hei</h1>
+        <main>
+            <Amanda/>
+            <Nikola/>
+            <Isabel/>
+        </main>
     )
 }

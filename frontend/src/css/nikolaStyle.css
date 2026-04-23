@@ -1,8 +1,38 @@
 .nikolaKort{
-    background-color: rgb(96, 96, 218);
+    background-color: #423ae0;
     width: 30%;
     padding: 2rem;
+    border-radius: 1.5rem;
 }
 #nikolaBilde{
     width: 90%;
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+}
+
+#navnN{
+    color: #fff;
+    padding: 0.5rem;
+    font-size: 2rem;
+
+
+
+}
+
+#mailN{
+    padding: 0.5rem;
+    
+    a{
+        color: #fff;
+        
+    }
+
+    a:hover{
+        color: #000;
+    }
+}
+
+#studieN{
+    color: #fff;
+    padding: 0.5rem;
 }

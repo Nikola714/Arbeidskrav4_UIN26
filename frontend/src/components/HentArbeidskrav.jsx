@@ -8,8 +8,9 @@ export default function HentArbeidskrav() {
 
     useEffect(()=>{
         async function fetchAllArbeidskrav() {
-            const alleArbeidskrav = await client.fetch(`*[_type == "arbeidskrav"]{
+            const alleArbeidskrav = await client.fetch(`*[_type == "arbeidskrav"]|order(arbeidskravnavn){
                 _id,
+                id,
                 arbeidskravnavn,
                 beskrivelse
                 }`)
@@ -23,7 +24,7 @@ export default function HentArbeidskrav() {
 
     return(
         <section id="arbeidskravliste">
-            {sanityKrav.map((ak) => (
+            {sanityKrav.sort().map((ak) => (
                 <article key={ak._id}>
                     <h2>{ak.arbeidskravnavn}</h2>
                     <p>{ak.beskrivelse}</p>

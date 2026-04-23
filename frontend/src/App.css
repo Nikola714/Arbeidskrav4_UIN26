@@ -1,14 +1,3 @@
-body{
-      max-width: 1400px;
-      position: relative;
-}
-
-main{
-  position: absolute;
-
-}
-
-
 #overskrift{
   width: 100%;
   padding: 1rem;

@@ -19,11 +19,15 @@
     }
     h2{
         margin-top: 30px;
+        font-size: 1.5rem;
+        font-weight: 100;
+       
     }
 
     h2, h5{
         margin: 0;
         color: black;
+         margin-bottom: 20px;
     }
     
     h1{
@@ -38,7 +42,12 @@
         max-width: 90%;
         border-radius: 0 20px 0 20px;
         margin-top: 10px;
+        margin-bottom: 30px;
     }
-
+    .sanbilde {
+    max-width: 105px;
+    background-color: rgb(18, 47, 18);
+    padding: 8px
+}
 
 }

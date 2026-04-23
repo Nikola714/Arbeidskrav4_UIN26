@@ -3,7 +3,7 @@
 
 #amandaKort {
     background-color: rgb(255, 211, 228);
-    color: rgb(247, 242, 233);
+    color: rgb(255, 250, 240);
 
 
     font-family: Arial, Helvetica, sans-serif;
@@ -11,10 +11,10 @@
     text-align: left;
     margin: 0;
     width: 25%;
-    padding: 2rem;
+    padding: 3rem;
    
-    border-radius: 5%;
-    border-color: rgb(247, 242, 233);
+    border-radius: 40px;
+    border-color: rgb(251, 242, 228);
     border-style: solid;
     border-width: 3px;
 
@@ -22,7 +22,7 @@
     img {
     max-width: 100%;
     border-radius: 5%;
-    border-color: rgb(247, 242, 233);
+    border-color: rgb(251, 242, 228);
     border-style: solid;
     border-width: 5px;
     
@@ -52,11 +52,12 @@
 
 
     h3 {
-        font-size: 1,5rem;
-        font-weight: 200;
+        font-size: 20px;
+        font-weight: 800;
     }
     h4 {
-        font-size: 1,5rem;
+        font-size: 18px;
         font-weight: 200;
+       
     }
 }

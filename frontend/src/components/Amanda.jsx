@@ -15,4 +15,3 @@ export default function Amanda() {
     )}
 
 
-// Problemer med pc, så jeg har selv programmert alt på branch men vi ble nødt til å kopiere alt inn i nye repositorier flere ganger i starten av oppgaven.  

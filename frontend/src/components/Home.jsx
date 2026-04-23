@@ -22,3 +22,5 @@ export default function Home(){
         </main>
     )
 }
+
+// Problemer med pc, så vi har selv programmert alt på branch men vi ble nødt til å kopiere alt inn i nye repositorier flere ganger i starten av oppgaven.  

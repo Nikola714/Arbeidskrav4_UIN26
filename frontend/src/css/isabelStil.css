@@ -21,7 +21,14 @@
         margin-top: 30px;
         font-size: 1.5rem;
         font-weight: 100;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-decoration: underline wavy rgb(18, 47, 18);
+        text-underline-offset: 10px;
        
+    }
+
+    h2 .navn{
+        
     }
 
     h2, h5{
@@ -29,12 +36,7 @@
         color: black;
          margin-bottom: 20px;
     }
-    
-    h1{
-        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        text-decoration: underline wavy rgb(18, 47, 18);
-        text-underline-offset: 10px;
-    }
+   
 
    
 

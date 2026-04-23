@@ -10,6 +10,11 @@ const arbeidskrav = {
 
         },
         {
+            name: "id",
+            title: "Arbeidskrav-nummer",
+            type: "number"
+        }, 
+        {
             name: "beskrivelse",
             title:"Beskrivelse av arbeidskravet",
             type:"string"

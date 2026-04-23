@@ -5,7 +5,7 @@ export default function Isabel(){
     return(
     <>
     <article className="isabelKort">
-        <h1>Isabel Tapper</h1>
+        <h2 className='navn'>Isabel Tapper</h2>
         <a href="mailto:istap9887@hiof.no">istap9887@hiof.no</a>
         <img src="bilder/isabel.JPG" className="ibilde" alt="portrettIsabel"></img>
         <h2>Studie: Enkeltemner</h2>

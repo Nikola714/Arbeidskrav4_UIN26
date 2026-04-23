@@ -17,7 +17,7 @@ export default function Home(){
                 <Nikola/>
                 <Isabel/>    
             </section>
-            <h1>Arbeidskrav for interaktive nettsteder</h1>
+            <h2 id="undertittel">Arbeidskrav for interaktive nettsteder</h2>
             <HentArbeidskrav />            
         </main>
     )

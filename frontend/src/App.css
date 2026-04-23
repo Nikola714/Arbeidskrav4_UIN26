@@ -1,3 +1,27 @@
+body{
+  background-color: rgb(66, 63, 60);
+  color: rgb(252, 246, 237);
+}
+
+h1{
+    color: rgb(241, 234, 224);
+    font-size: 100px;
+
+}
+
+h2{
+    color: rgb(241, 234, 224);
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+
+}
+
+#undertittel{
+   font-size: 60px;
+}
+
 #overskrift{
   width: 100%;
   padding: 1rem;
@@ -18,4 +42,5 @@ section{
 #arbeidskravene{
   max-width: 800px;
   text-align: start;
+  padding-bottom: 20px;
 }

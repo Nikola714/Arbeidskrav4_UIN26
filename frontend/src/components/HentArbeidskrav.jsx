@@ -19,6 +19,10 @@ export default function HentArbeidskrav() {
         fetchAllArbeidskrav()
     },[])
 
+    // vi er klare over at det ikke er best practice å sortere etter alfabetisk 
+    // rekkefølge på strengene, men vi fikk ikke til å finne ut av hvorfor id kom opp som 'null' i konsollen,
+    // så vi velger heller å bruke dette for funksjonalitetens skyld.
+
     console.log(sanityKrav)
 
 

@@ -48,6 +48,8 @@
         border-radius: 0 20px 0 20px;
         margin-top: 10px;
         margin-bottom: 30px;
+        background-color: rgb(18, 47, 18);
+        padding: 4px
     }
     .sanbilde {
     max-width: 105px;

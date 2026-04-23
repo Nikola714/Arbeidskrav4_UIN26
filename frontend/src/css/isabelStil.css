@@ -1,19 +1,19 @@
 .isabelKort{
-    background-color: rgb(111, 85, 122);
+    background-color: rgb(82, 120, 95);
     margin: 0;
     width: 25%;
     padding: 2rem;
-    border-radius:5%;
+    border-radius:  20px 0 20px 0;
     
 
     h1, h2, a{
-    font: helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin: 5,5%;
     color: black;
     }
     a {
-        color: rgb(193, 100, 177)
+        color: rgb(20, 44, 33)
     }
 
     h2, h5{
@@ -21,9 +21,17 @@
         color: black;
     }
     
+    h1{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-decoration: underline wavy rgb(18, 47, 18);
+        text-underline-offset: 10px;
+    }
+
+   
 
     img {
         max-width: 90%;
+        border-radius: 0 20px 0 20px;
     }
 
 

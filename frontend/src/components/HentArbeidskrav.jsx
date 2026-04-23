@@ -19,13 +19,17 @@ export default function HentArbeidskrav() {
         fetchAllArbeidskrav()
     },[])
 
+    // vi er klare over at det ikke er best practice å sortere etter alfabetisk 
+    // rekkefølge på strengene, men vi fikk ikke til å finne ut av hvorfor id kom opp som 'null' i konsollen,
+    // så vi velger heller å bruke dette for funksjonalitetens skyld.
+
     console.log(sanityKrav)
 
 
     return(
         <section id="arbeidskravliste">
             {sanityKrav.sort().map((ak) => (
-                <article key={ak._id}>
+                <article id="arbeidskravene" key={ak._id}>
                     <h2>{ak.arbeidskravnavn}</h2>
                     <p>{ak.beskrivelse}</p>
                 </article>

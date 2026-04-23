@@ -19,3 +19,14 @@ section{
     gap: 1rem;
     justify-content: center;
 }
+
+
+#arbeidskravliste{
+  flex-direction: column;
+  padding: 1rem;  
+}
+
+#arbeidskravene{
+  max-width: 800px;
+  text-align: start;
+}

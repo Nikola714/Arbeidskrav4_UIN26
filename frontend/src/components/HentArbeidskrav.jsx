@@ -28,7 +28,7 @@ export default function HentArbeidskrav() {
 
     return(
         <section id="arbeidskravliste">
-            {sanityKrav.sort().map((ak) => (
+            {sanityKrav.map((ak) => (
                 <article id="arbeidskravene" key={ak._id}>
                     <h2>{ak.arbeidskravnavn}</h2>
                     <p>{ak.beskrivelse}</p>
